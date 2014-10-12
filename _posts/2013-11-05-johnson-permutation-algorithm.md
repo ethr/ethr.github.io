@@ -8,14 +8,15 @@ below follows *Even's speed up* where items have a direction
 associated with them. The Johnson algorithm can be implemented
 recursively but I'm not totally sure how this is done.
 
-In the program below, a list of numbers is given in data[] - these
-could represent indexes in an array/vector etc... Each number has a
-direction represented by the sign of the number. Negative means *move
-left*, positive means *move right*. On each iteration step, the
-largest mobile integer is select - mobile meaning that its move is
-possible. A negative number in data[0] can not move in its desired
-direction for example. If a number is the largest but is not mobile,
-its sign is reversed so it starts moving in the other direction.
+In the program below, a list of numbers is given in
+<code>data[]</code> - these could represent indexes in an array/vector
+etc... Each number has a direction represented by the sign of the
+number. Negative means *move left*, positive means *move right*. On
+each iteration step, the largest mobile integer is select - mobile
+meaning that its move is possible. A negative number in
+<code>data[0]</code> can not move in its desired direction for
+example. If a number is the largest but is not mobile, its sign is
+reversed so it starts moving in the other direction.
 
 {% highlight cpp %}
 #include <cstdio>
