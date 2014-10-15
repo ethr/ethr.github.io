@@ -1,0 +1,193 @@
+<html>
+<head>
+<title>JS Chess</title>
+<LINK REL=StyleSheet HREF="style.css" TYPE="text/css">
+<script type="text/JavaScript" src="script.js">
+
+</script>
+</head>
+<body>
+<div align="left">
+<div><img src="images/banner.jpg" /></div>
+<table border="0">
+<tr>
+<td>
+<table cellspacing="0" cellpadding="5" border="0" style="border: 4px solid black;">
+<tr>	
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(0);"><img alt="white" title="castle" id="0" src="images/wcstl.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(1);"><img alt="white" title="knight" id="1" src="images/wkngt.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(2);"><img alt="white" title="bishop" id="2" src="images/wbish.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(3);"><img alt="white" title="king" id="3" src="images/wking.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(4);"><img alt="white" title="queen" id="4" src="images/wquen.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(5);"><img alt="white" title="bishop" id="5" src="images/wbish.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(6);"><img alt="white" title="knight" id="6" src="images/wkngt.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(7);"><img alt="white" title="castle" id="7" src="images/wcstl.gif"></a></td>
+</tr>
+<tr>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(8);"><img alt="white" title="pawn" id="8" src="images/wpawn.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(9);"><img alt="white" title="pawn" id="9" src="images/wpawn.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(10);"><img alt="white" title="pawn" id="10" src="images/wpawn.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(11);"><img alt="white" title="pawn" id="11" src="images/wpawn.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(12);"><img alt="white" title="pawn" id="12" src="images/wpawn.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(13);"><img alt="white" title="pawn" id="13" src="images/wpawn.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(14);"><img alt="white" title="pawn" id="14" src="images/wpawn.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(15);"><img alt="white" title="pawn" id="15" src="images/wpawn.gif"></a></td>
+</tr>
+<tr>	
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(16);"><img alt="blank" title="blank" id="16" src="images/blanks.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(17);"><img alt="blank" title="blank" id="17" src="images/blanks.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(18);"><img alt="blank" title="blank" id="18" src="images/blanks.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(19);"><img alt="blank" title="blank" id="19" src="images/blanks.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(20);"><img alt="blank" title="blank" id="20" src="images/blanks.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(21);"><img alt="blank" title="blank" id="21" src="images/blanks.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(22);"><img alt="blank" title="blank" id="22" src="images/blanks.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(23);"><img alt="blank" title="blank" id="23" src="images/blanks.gif"></a></td>
+</tr>
+<tr>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(24);"><img alt="blank" title="blank" id="24" src="images/blanks.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(25);"><img alt="blank" title="blank" id="25" src="images/blanks.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(26);"><img alt="blank" title="blank" id="26" src="images/blanks.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(27);"><img alt="blank" title="blank" id="27" src="images/blanks.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(28);"><img alt="blank" title="blank" id="28" src="images/blanks.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(29);"><img alt="blank" title="blank" id="29" src="images/blanks.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(30);"><img alt="blank" title="blank" id="30" src="images/blanks.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(31);"><img alt="blank" title="blank" id="31" src="images/blanks.gif"></a></td>
+</tr>
+<tr>	
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(32);"><img alt="blank" title="blank" id="32" src="images/blanks.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(33);"><img alt="blank" title="blank" id="33" src="images/blanks.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(34);"><img alt="blank" title="blank" id="34" src="images/blanks.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(35);"><img alt="blank" title="blank" id="35" src="images/blanks.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(36);"><img alt="blank" title="blank" id="36" src="images/blanks.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(37);"><img alt="blank" title="blank" id="37" src="images/blanks.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(38);"><img alt="blank" title="blank" id="38" src="images/blanks.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(39);"><img alt="blank" title="blank" id="39" src="images/blanks.gif"></a></td>
+</tr>
+<tr>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(40);"><img alt="blank" title="blank" id="40" src="images/blanks.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(41);"><img alt="blank" title="blank" id="41" src="images/blanks.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(42);"><img alt="blank" title="blank" id="42" src="images/blanks.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(43);"><img alt="blank" title="blank" id="43" src="images/blanks.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(44);"><img alt="blank" title="blank" id="44" src="images/blanks.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(45);"><img alt="blank" title="blank" id="45" src="images/blanks.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(46);"><img alt="blank" title="blank" id="46" src="images/blanks.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(47);"><img alt="blank" title="blank" id="47" src="images/blanks.gif"></a></td>
+</tr>
+<tr>	
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(48);"><img alt="black" title="pawn" id="48" src="images/bpawn.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(49);"><img alt="black" title="pawn" id="49" src="images/bpawn.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(50);"><img alt="black" title="pawn" id="50" src="images/bpawn.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(51);"><img alt="black" title="pawn" id="51" src="images/bpawn.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(52);"><img alt="black" title="pawn" id="52" src="images/bpawn.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(53);"><img alt="black" title="pawn" id="53" src="images/bpawn.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(54);"><img alt="black" title="pawn" id="54" src="images/bpawn.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(55);"><img alt="black" title="pawn" id="55" src="images/bpawn.gif"></a></td>
+</tr>
+<tr>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(56);"><img alt="black" title="castle" id="56" src="images/bcstl.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(57);"><img alt="black" title="knight" id="57" src="images/bkngt.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(58);"><img alt="black" title="bishop" id="58" src="images/bbish.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(59);"><img alt="black" title="king" id="59" src="images/bking.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(60);"><img alt="black" title="queen" id="60" src="images/bquen.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(61);"><img alt="black" title="bishop" id="61" src="images/bbish.gif"></a></td>
+	<td style="background: #444444;">
+<a href="#" onclick="MovePiece(62);"><img alt="black" title="knight" id="62" src="images/bkngt.gif"></a></td>
+	<td style="background: white;"  >
+<a href="#" onclick="MovePiece(63);"><img alt="black" title="castle" id="63" src="images/bcstl.gif"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr align="center">
+<td>
+<table cellspacing="5">
+<tr>
+	<td>&nbsp;</td>
+	<td><div align="center" style="text-decoration: underline;">Information</div></td>
+	<td>&nbsp;</td>
+</tr>
+<tr>	
+	<td>&nbsp;</td>
+	<td><div align="center" id="bwdisplay">White to Start</div></td>
+	<td>&nbsp;</td>
+</tr>
+<tr>
+	<td><div align="center" id="wmovecountdisplay">White Moves: 0</div></td>
+	<td><div align="center" id="bmovecountdisplay">Black Moves: 0</div></td>
+	<td><div align="center" id="movecountdisplay">Total Moves: 0</div></td>
+</tr>
+<tr>
+	<td><div align="center" id="wpiececountdisplay">White pieces: 16</div></td>
+	<td><div align="center" id="bpiececountdisplay">Black pieces: 16</div></td>
+	<td><div align="center" id="piececountdisplay">Total pieces: 32</div></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
