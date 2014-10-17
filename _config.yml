@@ -1,6 +1,7 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+# pygments:         true
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
@@ -8,7 +9,7 @@ permalink:        pretty
 # Setup
 title:            Joshua England
 tagline:          ''
-description:      ''
+description:      'Joshua England'
 url:              http://ethr.github.io
 baseurl:             /
 
