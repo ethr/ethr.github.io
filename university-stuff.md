@@ -24,6 +24,7 @@ GPU hardware.
 ## Notes
 Here are the PDF versions of some lecture notes from a few courses.
 
+- [Comp2011 Theory of Computation](/university/notes/comp2011.pdf)
 - [Comp3008 Machine Learnings](/university/notes/comp3008-machinelearning.pdf)
 - [Comp3010 Networks](/university/notes/comp3010-networks.pdf)
 - [Comp3019 Distributed Systems](/university/notes/comp3019-distributed.pdf)
