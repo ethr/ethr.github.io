@@ -12,13 +12,16 @@ Like most people these days, I use a music streaming service to listen to
 everything. This began with Spotify which came out whilst I was at University,
 and the free version was good as I didn't mind the adverts. However, this was
 changed so that songs could be played a limited number of times each month and
-the amount of adverts were increased.  I look my business over to Rdio,
-starting with their free service and then moving to a full subscription once I
-started work. I've been with Rdio for a number of years now, but Spotify ran a
+the amount of adverts were increased so I moved over to Rdio,
+starting with their free service and then a full subscription once I
+started work.
+
+I've been with Rdio for a number of years now, but Spotify ran a
 promotion in January 2015 where three months of premium subscription could be
 purchased for 99p. Since some of my favourite artists were publishing playlists
-on Spotify at the time, I decided to give Spotify another chance. This article
-is my comparison between the services and primarily to help me decide whether to
+on Spotify at the time, I decided to give Spotify another chance.
+
+This article is my comparison between the services and primarily to help me decide whether to
 pay the full price for Spotify or not. This review does not cover the mobile
 clients are I do not use them often.
 
