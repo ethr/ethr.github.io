@@ -7,7 +7,7 @@ title: Spotify v. Rdio
   <div class="float:left;">
     <img src="public/images/spotify-logo.png" alt="Spotify Logo" />
   </div>
-  <div class="float:left;">
+  <div class="float:right;">
     <img src="public/images/rdio-logo.jpeg" alt="Rdio Logo" />
   </div>
   <div style="clear:both;"></div>
