@@ -5,10 +5,10 @@ title: Spotify v. Rdio
 
 <div>
   <div class="float:left;">
-    ![Spotify Logo](images/spotify-logo.png "Spotify Logo")
+    ![Spotify Logo](/images/spotify-logo.png "Spotify Logo")
   </div>
   <div class="float:left;">
-    ![Rdio Logo](images/rdio-logo.png "Rdio Logo")
+    ![Rdio Logo](/images/rdio-logo.png "Rdio Logo")
   </div>
   <div style="clear:both;"></div>
 </div>
