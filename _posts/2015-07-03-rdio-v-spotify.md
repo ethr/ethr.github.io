@@ -4,11 +4,9 @@ title: Spotify v. Rdio
 ---
 
 <div>
-  <img src="public/images/spotify-logo.png" alt="Spotify Logo" style="display: inline;"/>
-  <img src="public/images/rdio-logo.jpeg" alt="Rdio Logo" style="display: inline;"/>
+  <img src="/public/images/spotify-logo.png" alt="Spotify Logo" style="display: inline;"/>
+  <img src="/public/images/rdio-logo.jpeg" alt="Rdio Logo" style="display: inline;"/>
 </div>
-
-
 
 Like most people these days, I use a music streaming service to listen to
 everything. This began with Spotify which came out whilst I was at University,
@@ -46,6 +44,8 @@ although this could be a pain for IE6 and IE7 users.. The interface is
 minimalist, with a white and blue colour scheme and very little visual
 inference, and feel its slightly more responsive than Spotify.
 
+![Rdio Interface](/public/images/rdio.png "Rdio Interface")
+
 Spotify has two clients: a regular desktop application or web-application. The
 web application (play.spotify.com) is a lot less reliable than Rdio's. I've had
 several problems where the player would crash or fail to play subsequent song.
@@ -53,6 +53,8 @@ The desktop application is good, where it can be installed, and is quite
 reliable. However, I feel the interface is clogged up with "Social" and "App"
 features which get in the way of me finding music to listen to. I've hardly used
 these features and feel they could be tucked away to keep the interface clean.
+
+![Spotify Interface](/public/images/spotify.png "Spotify Interface")
 
 However, the Spotify play queue is a lot easier to manage than Rdio's and more
 suited to parties where multiple people want to add tracks to be played. Rdio
