@@ -29,7 +29,7 @@ clients are I do not use them often.
 
 ## Price
 
-Both services have identical pricing structures at free with adverts, or £9.99
+Both services have identical pricing structures at free with adverts, or Â£9.99
 per month for all platforms. However, Rdio do offer a 50% discount for web-only
 usage (presumable not mobile) which could be useful to some.
 
@@ -105,3 +105,4 @@ Therefore I think Rdio just about wins this battle.
 But its very close. If Spotify overhauled their design, dropped the price or
 fixed their web player and supported Chromecast then they would get it. The
 problem is that these services are just a soulless utility now.
+
