@@ -5,13 +5,15 @@ title: Spotify v. Rdio
 
 <div>
   <div class="float:left;">
-    ![Spotify Logo](/images/spotify-logo.png "Spotify Logo")
+    ![Spotify Logo](public/images/spotify-logo.png "Spotify Logo")
   </div>
   <div class="float:left;">
-    ![Rdio Logo](/images/rdio-logo.png "Rdio Logo")
+    ![Rdio Logo](public/images/rdio-logo.png "Rdio Logo")
   </div>
   <div style="clear:both;"></div>
 </div>
+
+![Rdio Logo](public/images/rdio-logo.png "Rdio Logo")
 
 Like most people these days, I use a music streaming service to listen to
 everything. This began with Spotify which came out whilst I was at University,
