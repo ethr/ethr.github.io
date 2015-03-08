@@ -44,7 +44,7 @@ although this could be a pain for IE6 and IE7 users.. The interface is
 minimalist, with a white and blue colour scheme and very little visual
 inference, and feel its slightly more responsive than Spotify.
 
-![Rdio Interface](/public/images/rdio.png "Rdio Interface")
+<img src="/public/images/rdio.png" alt="Rdio Interface" style="width: 100%;"/>
 
 Spotify has two clients: a regular desktop application or web-application. The
 web application (play.spotify.com) is a lot less reliable than Rdio's. I've had
@@ -54,7 +54,7 @@ reliable. However, I feel the interface is clogged up with "Social" and "App"
 features which get in the way of me finding music to listen to. I've hardly used
 these features and feel they could be tucked away to keep the interface clean.
 
-![Spotify Interface](/public/images/spotify.png "Spotify Interface")
+<img src="/public/images/spotify.png" Spotify Interface" style="width: 100%;"/>
 
 However, the Spotify play queue is a lot easier to manage than Rdio's and more
 suited to parties where multiple people want to add tracks to be played. Rdio
